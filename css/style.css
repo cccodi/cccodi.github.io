@@ -363,3 +363,29 @@ nav{
     color:var(--color-text-light);
     font-style:italic;
 }
+
+.project-status{
+    display:inline-flex;
+    align-items:center;
+    gap:.5rem;
+    margin-bottom:1rem;
+    padding:.35rem .8rem;
+    border-radius:999px;
+    font-size:.8rem;
+    font-weight:600;
+}
+
+.status-dot{
+    width:8px;
+    height:8px;
+    border-radius:50%;
+}
+
+.in-progress{
+    background:#FEF3C7;
+    color:#92400E;
+}
+
+.in-progress .status-dot{
+    background:#F59E0B;
+}
