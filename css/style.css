@@ -50,3 +50,46 @@ button{
 
     border:none;
 }
+
+/* ==========================
+   LAYOUT
+========================== */
+
+.container{
+
+    width:min(90%, var(--container-width));
+
+    margin-inline:auto;
+}
+
+section{
+
+    padding:var(--space-7) 0;
+}
+
+
+/* ==========================
+   TYPOGRAPHY
+========================== */
+
+h1,h2,h3{
+
+    font-family:var(--font-heading);
+
+    line-height:1.2;
+}
+
+h1{
+
+    font-size:var(--fs-xl);
+}
+
+h2{
+
+    font-size:var(--fs-lg);
+}
+
+p{
+
+    color:var(--color-text-light);
+}
